@@ -3,6 +3,11 @@ body {
 	background-color:lightblue;
 	color: magenta;
 }
+h {color:red;
+   font:30px bold;
+   }
+   
+  
 
 div#bandeau {
 	width:1020px;
