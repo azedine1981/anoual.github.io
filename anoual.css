@@ -7,6 +7,12 @@ body {
 
 header {border:2px dashed;
         color:green;
+        font-size:40px;
+        
+        Animation-name : anima ;
+Animation-delay : 2s ;
+Animation-duration : 3s ;
+Animation-iteration-count : infinite ;
 }
 h {color:red;
    font:30px bold;
@@ -37,3 +43,17 @@ img {
 }
 
 .decor{border:1px solid black;}
+
+
+
+
+@keyframes anima {
+From {
+Opacity : 1 ;
+}
+To {
+Opacity : 0 ;
+}
+}
+
+
