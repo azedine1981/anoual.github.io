@@ -1,8 +1,9 @@
 body {
 
-	background-color:lightblue;
-	color: magenta;
+	background-color:palegreen;
+	color: sienna;
 	padding:60px;
+	margin-left:40px;
 }
 
 header {border:2px dashed;

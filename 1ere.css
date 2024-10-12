@@ -1,0 +1,23 @@
+body {
+
+	background-color:lightblue;
+	color: magenta;
+	padding:60px;
+	margin-left:30px
+}
+
+header {border:2px dashed;
+        color:green;
+        font-size:40px;
+        }
+h {color:red;
+   font:30px bold;
+   }
+ p {color:black;
+    font:18px helvitica;
+    }
+  
+ td {border:1px solid yellow;
+ }
+
+
