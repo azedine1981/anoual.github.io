@@ -1,53 +1,33 @@
-body {
+header {border:2px dashed;
+        color:red;
+        font-size:40px;
+        
+        Animation-name : anima ;
+        Animation-delay : 4s ;
+        Animation-duration : 5s ;
+        Animation-iteration-count : infinite ;
+}
 
+body {
+        background-image:url("zellij.png");
 	background-color:palegreen;
 	color: sienna;
 	padding:60px;
 	margin-left:40px;
 }
 
-header {border:2px dashed;
-        color:green;
-        font-size:40px;
-        
-        Animation-name : anima ;
-Animation-delay : 2s ;
-Animation-duration : 3s ;
-Animation-iteration-count : infinite ;
-}
 h {color:red;
    font:30px bold;
    }
+   
  p {color:black;
     font:18px helvitica;
     }
   
  td {border:1px solid yellow;
  }
-div#bandeau {
-	width:1020px;
-	height:100px;
-	background-color:#00CCFF;
-	}
-div#contenu {
-	width:1020px;
-	height:500px;
-	background-color:#FFCC00;
-	}
-div#piedpage {
-	width:1020px;
-	height:100px;
-	background-color:#33FF99;
-	}
-img {
-     position:center;
-}
-
-.decor{border:1px solid black;}
-
-
-
-
+ 
+ 
 @keyframes anima {
 From {
 Opacity : 1 ;
@@ -56,5 +36,39 @@ To {
 Opacity : 0 ;
 }
 }
+ 
+div#bandeau {
+	width:1080px;
+	height:100px;
+	background-color:#00CCFF;
+	}
+div#contenu1 {
+	width:700px;
+	height:500px;
+	background-color:#FFCC00;
+	display:inline-block;
+	
+	
+	
+	}
+	
+div#contenu2 {
+	width:380px;
+	height:500px;
+	background-color:khaki;
+	
+	display:inline-block;
+	float:right;
+	}
+div#piedpage {
+	width:1080px;
+	height:100px;
+	background-color:#33FF99;
+	}
+
+
+
+
+
 
 
