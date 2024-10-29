@@ -7,8 +7,92 @@
   </head>
 
   <body>
-  <h> Présentation du module Turtle </h>
+  <h>1- Présentation du module Turtle </h>
   <br>
+  <p>Turtle est un module graphique du langage de programmation Python. Il est inspiré de la programmation Logo et permet de déplacer une tortue sur l’écran.<br>
+  donc vous pouvez l'utilisez pour construire des formes géométriques et d'appliquer un certain nombre de règles mathématiques et géométriques.<br>
+  </p>
+  <h> Exemples</h><br>
+ <div>
+>>> from turtle import * <br>
+>>> forward(90)<br>
+>>> left(60)<br>
+>>> color('blue')<br>
+>>> forward(50)<br>
+</div>
+<h> 2- Déplacer le crayon </h>
+<p>
+<table>
+      <tr>
+          <td>Méthode </td>
+          <td> Description</td>
+      </tr>
+      <tr>
+          <td> forward(distance)</td>
+          <td>Avance d'une distance(en pixels) donnée. </td>
+      </tr>
+      <tr>
+          <td> backward(distance)</td>
+          <td> Recule d'une distance (en pixels) donnée.</td>
+      </tr>
+      <tr>
+          <td>goto(x,y) </td>
+          <td>Déplace le crayon jusqu'aux coordonnées (x,y). </td>
+      </tr>
+      
+      <tr>
+          <td>left(angle) </td>
+          <td> Tourne à gauche d'un angle donnée (en gegrés)</td>
+      </tr>
+      <tr>
+          <td> right(angle)</td>
+          <td>Tourne à droite d'un angle donné (en degrés) </td>
+      </tr>
+      
+</table>
+</p>
+<h>Le comportement du crayon </h>
+
+<p>
+<table>
+      <tr>
+          <td>Méthode </td>
+          <td> Description</td>
+      </tr>
+      <tr>
+          <td> shape(forme)</td>
+          <td>forme possible:'classic' ou 'turtle' </td>
+      </tr>
+      <tr>
+          <td> speed(n)</td>
+          <td> Vitesse du tracé: de n=0 jusquà 10 (rapide)</td>
+      </tr>
+      <tr>
+          <td>width(n) </td>
+          <td>Epaisseur du trait: de n=0 jusquà n=10 (épais) </td>
+      </tr>
+      
+      <tr>
+          <td>up()</td>
+          <td>Relève le crayon (pour le déplacer sans dessiner).</td>
+      </tr>
+      <tr>
+          <td> down()</td>
+          <td>Abaisse le crayon (pour recommencer le traçage).</td>
+      </tr>
+      
+       <tr>
+          <td> home()</td>
+          <td> Ramène le crayon dans sa position initiale.</td>
+      </tr>
+       <tr>
+          <td> hideturtle()</td>
+          <td>Masque le crayon.</td>
+      </tr>
+      
+</table>
+</p>
+ 
     
      
      <button><a href="index.html">Précédent</a></button>

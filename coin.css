@@ -1,4 +1,6 @@
 body {background-color:linen;
+      margin-left:60px;
+      margin-right:80px;
 }
 h {color:red;
    font:30px bold;
@@ -7,3 +9,8 @@ h {color:red;
  p {color:black;
     font:18px helvitica;
     }
+    
+ div { color: blue;
+  border: 2px solid black;
+  width:300;
+ }
