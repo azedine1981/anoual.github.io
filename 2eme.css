@@ -3,6 +3,7 @@ body {
 	background-color:khaki;
 	color:blue;
 	padding:60px;
+	margin-left:10px;
 }
 
 header {border:2px dashed;
@@ -16,5 +17,7 @@ h {color:red;
     font:18px helvitica;
     }
   
- td {border:1px solid yellow;
+ td {border:1px solid green;
+     color: black;
+     font-size:18px;
  }

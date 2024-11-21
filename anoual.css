@@ -17,7 +17,7 @@ body {
 }
 
 h {color:red;
-   font:30px bold;
+   font:20px bold;
    }
    
  p {color:black;
@@ -39,26 +39,24 @@ Opacity : 0 ;
  
 div#bandeau {
 	width:1080px;
-	height:100px;
+	height:300px;
 	background-color:#00CCFF;
 	}
-div#contenu1 {
-	width:700px;
-	height:500px;
+div#contenu1 {font-size:25px;
+	width:1080px;
+	height:300px;
 	background-color:#FFCC00;
-	display:inline-block;
 	
 	
 	
 	}
 	
 div#contenu2 {
-	width:380px;
-	height:500px;
+	width:1080px;
+	height:300px;
 	background-color:khaki;
 	
-	display:inline-block;
-	float:right;
+	
 	}
 div#piedpage {
 	width:1080px;
