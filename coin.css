@@ -14,3 +14,22 @@ h {color:red;
   border: 2px solid black;
   width:300;
  }
+ 
+ 
+  h {
+  animation-duration: 3s;
+  animation-name: parc;
+}
+
+@keyframes parc {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
