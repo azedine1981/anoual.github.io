@@ -27,4 +27,8 @@ h {color:red;
  
  div { background-color:greenyellow;
  }
+ img {display:block;
+      position:relative; 
+      position:right 5px;
+ }
  
